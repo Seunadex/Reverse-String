@@ -1,0 +1,14 @@
+{
+  "name": "reverse-string",
+  "version": "1.0.0",
+  "description": "Function that reverse the string argument",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/jasmine-node spec"
+  },
+  "author": "Seun Adekunle",
+  "license": "MIT",
+  "dependencies": {
+    "jasmine-node": "^1.14.5"
+  }
+}
