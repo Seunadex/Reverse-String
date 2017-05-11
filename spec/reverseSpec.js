@@ -42,4 +42,12 @@ describe("Produce the reverse order of a word: ", function() {
 
   });
 
+  describe("Case for certain situation", function() {
+    describe("handles mixture of both uppercase and lowercase", function() {
+      it("should return true for 'RaceCar'", function() {
+        expect(reverseString.reverseString("RaceCar")).toEqual(true);
+      });
+    });
+  });
+
 });
